@@ -1,0 +1,14 @@
+The model has 10 topics.
+Perplexity score: -7.895610443116584, Coherence score: 0.39487498777352537 
+
+Overview of topics: 
+ [(0, '0.019*"people" + 0.016*"country" + 0.013*"fake" + 0.013*"many" + 0.012*"year" + 0.011*"big" + 0.010*"want" + 0.009*"job" + 0.009*"make" + 0.009*"go"'), 
+ (1, '0.058*"member" + 0.033*"voting" + 0.023*"dirty" + 0.017*"stick" + 0.017*"copy" + 0.015*"pastor" + 0.010*"seal" + 0.010*"cripple" + 0.010*"collapse" + 0.009*"outlet"'), 
+ (2, '0.035*"change" + 0.011*"rate" + 0.010*"must" + 0.009*"case" + 0.008*"whole" + 0.008*"low" + 0.008*"obamacare" + 0.008*"safety" + 0.008*"judge" + 0.007*"price"'), 
+ (3, '0.060*"great" + 0.040*"border" + 0.030*"news" + 0.023*"happen" + 0.016*"come" + 0.011*"thank" + 0.010*"process" + 0.010*"meeting" + 0.010*"ready" + 0.010*"work"'), 
+ (4, '0.157*"wall" + 0.032*"deep" + 0.026*"innocent" + 0.019*"boom" + 0.019*"achieve" + 0.015*"billionaire" + 0.014*"anger" + 0.012*"spread" + 0.011*"movie" + 0.010*"working"'), 
+ (5, '0.052*"die" + 0.040*"spy" + 0.037*"concern" + 0.025*"impact" + 0.023*"blame" + 0.019*"black" + 0.018*"hispanic" + 0.018*"red" + 0.018*"magazine" + 0.017*"willing"'), 
+ (6, '0.019*"hard" + 0.018*"woman" + 0.017*"result" + 0.014*"crazy" + 0.014*"work" + 0.012*"announce" + 0.012*"come" + 0.011*"source" + 0.011*"nice" + 0.010*"crowd"'), 
+ (7, '0.031*"realdonaldtrump" + 0.029*"great" + 0.028*"thank" + 0.022*"trump" + 0.016*"make" + 0.015*"good" + 0.015*"would" + 0.014*"go" + 0.014*"get" + 0.012*"need"'), 
+ (8, '0.031*"thank" + 0.026*"other" + 0.024*"great" + 0.011*"little" + 0.011*"good" + 0.011*"news" + 0.010*"man" + 0.010*"entrepreneur" + 0.009*"course" + 0.009*"rally"'), 
+ (9, '0.065*"press" + 0.058*"hurt" + 0.055*"hand" + 0.039*"amount" + 0.032*"sit" + 0.026*"area" + 0.018*"pundit" + 0.016*"session" + 0.013*"contribution" + 0.009*"fellow"')]
