@@ -1,14 +1,14 @@
 # Assignment 5: Topic Modeling
 
 ### Description of Task: Applying Unsupervised Machine Learning to Text Data
-This assignment was assigned by the course instructor as “Assignment 5 – (Un)supervised Machine Learning”. The purpose of this assignment was to apply unsupervised machine learning on a self-chosen dataset containing textual data of some kind. We could choose to either train a text classifier on this text data to predict associated labels or train an LDA model to extract structured information that can provide insight into the chosen data. 
+This assignment was assigned by the course instructor as “Assignment 5 – (Un)supervised Machine Learning”. The purpose of this assignment was to apply unsupervised machine learning on a self-chosen dataset containing textual data of some kind. We could choose to either train a text classifier on this text data to predict associated labels or train an LDA model to extract structured information that can provide insight into the chosen data. <br>
 For this assignment I chose to train an LDA topic model on all Donald Trump tweets written between May 2009 and June 2020; a dataset available on [Kaggle](https://www.kaggle.com/austinreese/trump-tweets). The research question I was interested in was whether it would be possible to find meaningful and consistent topic within the tweets and how the content of the tweets changes over time in regard to which topics seem to be most dominating over time. Hence, the purpose of this assignment was to select an interesting dataset, formulate a research question, and perform unsupervised machine learning.  
 
-__Research statement__ <br>
+__Research Question__ <br>
 Is it possible to find meaningful and consistent topics within the tweets of Donald Trump posted between 2009 and 2020, and how does the content of the tweets change over time?
 
 ### Content and Repository Structure <br>
-If the user wishes to engage with the code and reproduce the obtained results, this section includes the necessary instructions to do so. It is important to remark that all the code that has been produced has only been tested in Linux and MacOS. Hence, for the sake of convenience, I recommend using a similar environment to avoid potential problems. 
+If the user wishes to engage with the code and reproduce the obtained results, this section includes the necessary instructions to do so. It is important to remark that all the code that has been produced has only been tested in Linux and MacOS. Hence, for the sake of convenience, I recommend using a similar environment to avoid potential problems. <br>
 The repository follows the overall structure presented below. The two scripts, ```0-preprocessing.py``` and ```1-topicmodeling.py```, are located in the ```src``` folder. The full dataset is provided in the ```data``` folder, and the outputs produced when running the scripts can be found within the ```output``` folder. The README file contains a detailed run-through of how to engage with the code and reproduce the contents.
 
 | Folder | Description|
@@ -93,13 +93,13 @@ Figure 1: Coherence values calculated for different number of topics. <br> <br>
 
 Figure 2 contains an overview of the 10 topics visualized as word clouds. When assessing the keywords for each topic, it seems that the tweets of Donald Trump in fact do display relatively well-defined topics. For instance, topic 4 seems to relate to the wall Donald Trump intended to build between the U.S. and Mexico, while topic 8 seems to concern fake news. However, other topics are less distinct and certain words seem to appear across different topics such as “thank” and “great” suggesting that the data could benefit from further preprocessing. 
 
-<img src="https://github.com/sofieditmer/topic_modeling/blob/main/output/topic_wordclouds.png" width="500">
+<img src="https://github.com/sofieditmer/topic_modeling/blob/main/output/topic_wordclouds.png" width="1000">
 Figure 2: Overview of topics visualized as word clouds. <br> <br>
 
 A more extensive overview of the topics is provided by the pyLDAvis visualization, which also provides a measure of overall term frequency for each as well as a measure of term frequency for the words within each topic . 
 When assessing the contribution of the 10 topics over time, it becomes evident that the content of Donald Trump’s tweet changes (see figure 3). Topic 7 which includes keywords such as “realdonaldtrump” which is Donald Trump’s twitter name, “great” and “thank” seems to be a dominating topic over time. However, at some point topic 0 seems to take over in terms of contribution. This topic includes keywords such as “great”, “people”, “country”, and “job”. Although these two dominating topics seem very similar, one could argue that Donald Trump goes from tweeting mostly about himself to tweeting more about the “people” and the “country”, which indicates a slightly shift in focus. However, while topic 7 reaches a percentage contribution of 70% over time, topic 0 only reaches around 45%.
 
-<img src="https://github.com/sofieditmer/topic_modeling/blob/main/output/topics_over_time.jpg" width="500">
+<img src="https://github.com/sofieditmer/topic_modeling/blob/main/output/topics_over_time.jpg" width="1000">
 Figure 3: Topic contribution over time. <br> <br>
 
 To sum up and answer the initial question asked; whether it would be possible to find meaningful and consistent topics within the tweets of Donald Trump between 2009 and 2020, and whether the tweets change in content over time, it seems that relatively consistent topics can be found, however, the interpretation of the topics require contextual knowledge of Trump’s political activity. When considering the topic contributions over time, two topics are clearly dominating the content of Donald Trump’s twitter account, but these topics are very similar and possibly even too general to infer meaningful conclusions from.
