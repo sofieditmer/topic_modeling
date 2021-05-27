@@ -91,6 +91,8 @@ The first result to remark on is the number of topics with the highest coherence
 <img src="https://github.com/sofieditmer/topic_modeling/blob/main/output/n_topics_coherence.jpg" width="500">
 Figure 1: Coherence values calculated for different number of topics. <br> <br>
 
+The model obtained a perplexity score of -7.8 and a coherence score of 0.39. The perplexity score tells us something about how well the model performed, i.e., how “surprised” it was when encountering new data. Hence, the relatively low perplexity score indicates that surprisal is low. The coherence value indicates how coherent the topics are. A high coherence value tells us that the topics actually correspond to something meaningful in the data. A coherence score of 0.39 in this case tells us that the topics are relatively interpretable, however, ideally we would want a higher coherence value to make the topics more interpretable. <br>
+
 Figure 2 contains an overview of the 10 topics visualized as word clouds. When assessing the keywords for each topic, it seems that the tweets of Donald Trump in fact do display relatively well-defined topics. For instance, topic 4 seems to relate to the wall Donald Trump intended to build between the U.S. and Mexico, while topic 8 seems to concern fake news. However, other topics are less distinct and certain words seem to appear across different topics such as “thank” and “great” suggesting that the data could benefit from further preprocessing. 
 
 <img src="https://github.com/sofieditmer/topic_modeling/blob/main/output/topic_wordclouds.png" width="1000">
